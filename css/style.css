@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+/* button:hover{
+    background-color: #0f23367e;
+} */
+.header__container{
+    background-color: #F5F6F7;
+}
+.header{
+    width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.header__menu a{
+    color: #0F2336;
+}
+.header__menu a:hover{
+    color: #0f2336a4;
+}
+.header__menu button{
+    padding: 16px 26px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #0F2336;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.header__menu button:hover{
+    background: #0f2336d2;
+}
+.section1__container{
+    margin-top: 70px;
+    background-image: url(/images/bg-s1.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+}
+.section1{
+    width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section1 h1{
+    font-size: 55px;
+    line-height: 75px;
+}
+.section1 h1::first-line{
+    color: #00CCCC;
+}
+.section1 h1::after{
+    content: ".";
+    color: #F3AF47;
+}
+.section1 img{
+    padding-right: 67px;
+}
+.section1 button{
+    margin-top: 50px;
+    padding: 19px 0;
+    width: 208px;
+    font-size: 14px;
+    color: #0F2336;
+    background-color: #00CCCC;
+    border: none;
+    border-radius: 14px;
+    word-spacing: 7px;
+    transition: 0.2s;
+}
+.section1 button:hover{
+    background-color: #00ccccd1;
+}
+
+.section2{
+    width: 1210px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2__cards h6{
+    font-size: 25px;
+    color: #0F2336;
+    padding-top: 29px;
+}
+.section2__cards p{
+    padding-top: 12px;
+    font-size: 16px;
+    color: #576D81;
+}
+.section3{
+    background-color: #F4F5F6;
+    margin: 135px auto;
+    width: 1210px;
+    display: flex;
+    border-radius: 50px;
+    height: 540px;
+    align-items: center;
+}
+.section3__photo{
+    height: 640px;
+}
+.section3__work{
+    margin-bottom: 27px;
+}
+.section3__work span{
+    font-size: 18px;
+    color: #576D81;
+}
+.section3__work h3{
+    padding-top: 22px;
+    font-size: 40px;
+}
+.section3__work p{
+    padding-top: 21px;
+    font-size: 16px;
+    color: #576D81;
+}
+.section3__work-line{
+    padding-top: 50px;
+}
+.section4__container{
+    background-color: #F4F5F6;
+    height: 527px;
+    position: relative;
+}
+.section4{
+    width: 1210px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4__cards_logo{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.section4__cards_logo h3{
+    font-size: 25px;
+    color: #0F2336;
+}
+.section4__cards{
+    font-size: 16px;
+    color: #576D81;
+    width: 455px;
+    height: 180px;
+    background-color: #FFFFFF;
+}
+.section4__cards_p{
+    padding-top: 25px;
+    padding-left: 74px;
+}
+.section4__photo{
+    position: absolute;
+    margin-left: 39%;
+    margin-bottom: 8%;
+}
+.card2{
+    margin-left: 210px;
+}
+.card1{
+    margin-bottom: 30px;
+}
+.card3{
+    margin-top: 30px;
+}
+.section5{
+    background-color: #F4F5F6;
+    margin: 135px auto;
+    width: 1210px;
+    display: flex;
+    border-radius: 50px;
+    height: 540px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.section5__work{
+    padding-right: 121px;
+}
+.section6{
+    width: 1210px;
+    margin: 100px auto;
+}
+.section6__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section6__logo_img{
+    width: 120px;
+    height: 107px;
+}
+.section6__logo_h2{
+    text-align: center;
+    font-size: 50px;
+    color: #0F2336;
+}
+.section6__form{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section6__form_input{
+    width: 394px;
+    height: 55px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    background-color: #F0F0F2;
+}
+.section6__form button{
+    background-color: #00CCCC;
+    font-size: 18px;
+    color: #0F2336;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 14px;
+    transition: 0.2s;
+}
+.section6__form_btn:hover{
+    background-color: #00cccccd;
+    }
+.section6__btn{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-right: 14%;
+}
+.section6__btn button{
+    margin-top: 20px;
+    background-color: #240C39;
+    border: none;
+    border-radius: 6px;
+    width: 185px;
+    height: 60px;
+    transition: 0.2s;
+}
+.section6__btn button:hover{
+background-color: #240c39d1;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.footer{
+    background-color: #0F2336;
+    height: 297px;
+    position: relative;
+}
+.footer__container{
+    width: 100%;
+}
+.footer__container_block1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_block1_img{
+    margin-top: 100px;
+    position: absolute;
+}
+.container_block1_img2{
+    padding-left: 255px;
+    padding-top: 55px;
+}
+.container_block2_link h6{
+    color: #00CCCC;
+    font-size: 12px;
+}
+.container_block2_link a{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.container_block2_link a:hover{
+    color: #ffffff96;
+}
+.footer__container_block2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* gap: -80px; */
+    position: relative;
+}
+.container_block2_linkcont{
+    display: flex;
+    padding-right: 254px;
+    gap: 80px;
+}
+.container_block2_link{
+    /* width: 350px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    gap: 13px;
+}
+.footer__container_block2 img{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 33px;
+}
